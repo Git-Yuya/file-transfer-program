@@ -29,6 +29,11 @@ TCPを利用したファイル転送プログラム(ftプログラムとshareプ
   <img src="https://img.shields.io/badge/-Visual%20Studio%20Code-007ACC.svg?logo=visualstudiocode&style=plastic">
 
 ## コンパイル手順
-- sudo apt install make
-- sudo apt install gcc
-- makeコマンド
+- makeとgccをインストール
+- Makefileがあるディレクトリでmakeコマンドを実行
+
+## 実行手順
+- サーバプログラムを実行後、別のターミナルでクライアントプログラムを実行する。以下にUbuntuでの実行例を示す。 <br>
+ターミナル1：./share_server <br>
+ターミナル2：./share_client <br>
+ターミナル3：./share_client
