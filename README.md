@@ -14,6 +14,8 @@ TCPを利用したファイル転送プログラム(ftプログラムとshareプ
   - 終了コマンドが入力されると、サーバに終了コマンドを送信し、クライアントプログラムを終了する。
   - バッファサイズの上限は64バイトであり、一度にファイル全体を読み込んでデータを送信できない。そのため、ファイルデータを64バイトずつ読み込み、送信する。
 
+<img width="960" alt="ft" src="https://github.com/Git-Yuya/file-transfer-program/assets/84259422/1f237f8e-3db3-4eea-aed9-9cc681b579a4">
+
 ## shareプログラム
 符号化・復号化を組み込み、柔軟で保守性の高いファイル転送プログラム
 - サーバの機能 (share_server.c)
@@ -21,6 +23,8 @@ TCPを利用したファイル転送プログラム(ftプログラムとshareプ
 
 - クライアントの機能 (ft_client.c)
   - ターミナルからのコマンドを受け付け、ファイルの送受信を決定する。
+
+<img width="960" alt="share" src="https://github.com/Git-Yuya/file-transfer-program/assets/84259422/fbf0c8b2-0829-4a5b-a732-635c37891077">
 
 ## 実装
 - 言語：
